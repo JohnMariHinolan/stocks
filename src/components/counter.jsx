@@ -5,8 +5,9 @@ import Stock from './stock'
 class Counter extends Component {
     state = {  }
 
-    
+   
     render() {  
+        var userLink = "http://phisix-api3.appspot.com/stocks.json";
          var json = {
         "name": "ABACORE CAPITAL",
         "price": {
